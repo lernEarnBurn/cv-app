@@ -13,8 +13,8 @@ export class Page extends React.Component {
                     <div className="page">
                         <h1 className="title">CV-Maker</h1>
                         <Section header="General Information" name1="First Name" name2="Last Name" name3="Email" name4="Phone Number"/>
-                        <Section header="Educational Experience" name1="School Name" name2="Title of Study" name3="Date Started" name4="Date Completed"/> 
-                        <Section header="Practical Experience" name1="Company Name" name2="Position" name3="Date Started" name4="Date Completed"/> 
+                        <Section header="Educational Experience" name1="School Name" name2="Title of Study" label1="Started" label2="Ended" type1="date" type2="date"/> 
+                        <Section header="Practical Experience" name1="Company Name" name2="Position" label1="Started" label2="Ended" type1="date" type2="date"/> 
                     </div>
                 </div>
     }
