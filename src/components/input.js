@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/input.css'
+import { Save } from "./saveBtn";
 
 export class Input extends React.Component {
     constructor(props){
@@ -9,8 +10,8 @@ export class Input extends React.Component {
 
     render(){
         return  <div className="input-container">
-                    <label className="input-label">{this.props.label}</label>
                     <input className="input" type={this.props.type} placeholder={this.props.name}></input>
+                    <Save/>
                 </div>
     }
 }

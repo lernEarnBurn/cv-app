@@ -2,4 +2,12 @@
     display: flex;
     gap: 1vw;
     align-items: center;
+    justify-content: space-around;
+}
+
+
+
+input {
+    width: 11vw;
+    padding: 4px 8px;
 }
