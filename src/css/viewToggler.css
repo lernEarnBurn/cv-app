@@ -14,7 +14,6 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: aliceblue;
 }
 
 
@@ -24,18 +23,6 @@
 }
 
 .inactive {
-  background-color: aliceblue;
-  color: black;
-}
-
-.inactive:hover,
-.inactive:hover ~ .active {
-  background-color: rgb(68, 68, 68);
-  color: aliceblue;
-}
-
-.active:hover,
-.active:hover ~ .inactive {
   background-color: aliceblue;
   color: black;
 }
