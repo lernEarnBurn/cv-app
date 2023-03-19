@@ -13,3 +13,17 @@
 .header {
     color: rgb(68, 68, 68);
 }
+
+.input-container {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+input {
+    width: 16vw;
+    padding: 4px 8px;
+}           
