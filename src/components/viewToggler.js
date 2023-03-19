@@ -13,10 +13,10 @@ export function Toggler(props){
     function toggleMode(event){
         if(event.target.classList.contains("update")){
             processClasses('.view', event)  
-            props.changeViewMode()
+            props.changeViewMode(false)
         }else if(event.target.classList.contains("view")){
             processClasses('.update', event)
-            props.changeViewMode()
+            props.changeViewMode(true)
         }
     }
 

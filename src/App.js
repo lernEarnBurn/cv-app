@@ -9,11 +9,11 @@ function App() {
   //for viewMode change
   const [viewMode, modeChange] = useState(false)
 
-  const isViewMode = () => {
-    if(viewMode === true){
-      modeChange(false)
-    }else{
+  const isViewMode = (bool) => {
+    if(bool === true){
       modeChange(true)
+    }else{
+      modeChange(false)
     }
   }
     
