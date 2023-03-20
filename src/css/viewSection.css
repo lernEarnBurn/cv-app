@@ -1,0 +1,20 @@
+.view-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: .1vh;
+}
+
+p {
+    font-size: 2.4vh;
+    height:auto;
+}
+
+.name {
+    display: flex;
+    gap: .4vw;
+}
+
+.date {
+    display: flex;
+    gap: .4vw;
+}
